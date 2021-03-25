@@ -1,0 +1,19 @@
+body {
+  margin: 20px;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 22px;
+  text-align: justify;
+  background: rgba(112, 243, 182, 0.363);
+}
+
+.highlight-btn {
+  border-radius: 6px;
+  border: 1px solid #000;
+  padding: 6px;
+  color: #fff;
+  background: rgb(32, 128, 64);
+}
+
+h1 {
+  text-align: center;
+}
