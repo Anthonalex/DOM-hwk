@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Page Slider</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <span class="left-btn" onclick="plusSlides(-1)"><</span>
+      <div class="picture-container">
+        <img
+          src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+          alt="wallpaper"
+        />
+      </div>
+      <div class="picture-container">
+        <img
+          src="https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8ZGV2ZWxvcGVyfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="wallpaper"
+        />
+      </div>
+      <div class="picture-container">
+        <img
+          src="https://images.unsplash.com/photo-1604964432806-254d07c11f32?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGV2ZWxvcGVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          alt="wallpaper"
+        />
+      </div>
+      <span class="right-btn" onclick="plusSlides(1)">></span>
+    </div>
+    <div class="page-dots">
+      <span class="dots" onclick="currentSlide(1)"></span>
+      <span class="dots" onclick="currentSlide(2)"></span>
+      <span class="dots" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

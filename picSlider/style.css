@@ -1,0 +1,61 @@
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 55vh;
+  margin-top: 2rem;
+}
+
+.picture-container {
+  border: 6px solid rgba(99, 131, 128, 0.164);
+  width: 600px;
+  height: 450px;
+  border-radius: 4px;
+  padding: 1px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-btn,
+.left-btn {
+  margin: 25px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  justify-content: center;
+}
+
+.right-btn:hover,
+.left-btn:hover {
+  background: rgba(53, 82, 80, 0.185);
+  transition: 1s;
+}
+
+.page-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots {
+  margin: 4px 10px;
+  width: 15px;
+  height: 15px;
+  background: darkgray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active,
+.dots:hover {
+  background: rgba(3, 78, 78, 0.966);
+  transition: 1s;
+}
