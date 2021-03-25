@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(1, 1, 15, 0.781);
+}
+.main-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-input {
+  background: rgba(100, 148, 237, 0.205);
+  width: 460px;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.todo-list {
+  margin: 12px;
+}
+
+.clear-btn,
+.add-btn {
+  border: none;
+  background: rgba(0, 191, 255, 0.438);
+  padding: 8px 12px;
+  color: rgb(59, 21, 121);
+  font-weight: bold;
+  border-radius: 10%;
+  margin-left: 4px;
+}
+
+.added-todo-input {
+  border: none;
+  background: none;
+}
+
+.del-btn {
+  background: rgb(255, 0, 0);
+  margin-left: 2px;
+  border-radius: 20%;
+  padding: 2px 4px;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.edit-btn {
+  background: rgb(55, 151, 55);
+  margin-left: 10px;
+  border-radius: 15%;
+  padding: 2px 4px;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+}

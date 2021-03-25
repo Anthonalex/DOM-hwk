@@ -6,6 +6,22 @@ const emailErrorLog = document.querySelector(".error-msg-email");
 const phoneErrorLog = document.querySelector(".error-msg-phone");
 const mainModal = document.querySelector(".modal");
 
+
+
+
+/*
+const validation = (type, elem) => {
+
+
+
+  
+   return type ? (elem.style.display = 'none') : (elem.style.display = 'block');
+}
+
+validation(isValidEmail, emailErrorLog);
+  validation(isValidPhone, phoneErrorLog);
+*/
+
 btn.addEventListener("click", () => {
   let isValidEmail = email.value.includes("@");
   let isValidPhone = !isNaN(+phone.value) && phone.value.length > 0;
